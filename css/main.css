@@ -1,0 +1,142 @@
+@import url(reset.css);
+.wrapper {
+  width: 1170px;
+  margin: 0 auto; }
+
+.row {
+  margin: 56px 0; }
+  .row:after {
+    display: block;
+    content: ' ';
+    height: 0;
+    visibility: hidden;
+    clear: both; }
+
+[class*='span'] {
+  float: left;
+  display: inline;
+  margin-right: 30px; }
+  [class*='span']:last-child {
+    margin-right: 0;
+    float: right; }
+
+.span1 {
+  width: 70px; }
+
+.span2 {
+  width: 170px; }
+
+.span3 {
+  width: 270px; }
+
+.span4 {
+  width: 370px; }
+
+.span5 {
+  width: 470px; }
+
+.span6 {
+  width: 570px; }
+
+.span7 {
+  width: 670px; }
+
+.span8 {
+  width: 770px; }
+
+.span9 {
+  width: 870px; }
+
+.span10 {
+  width: 970px; }
+
+.span11 {
+  width: 1070px; }
+
+.span12 {
+  width: 1170px; }
+
+.offset1 {
+  margin-left: 70px; }
+
+.offset2 {
+  margin-left: 170px; }
+
+.offset3 {
+  margin-left: 270px; }
+
+.offset4 {
+  margin-left: 370px; }
+
+.offset5 {
+  margin-left: 470px; }
+
+.offset6 {
+  margin-left: 570px; }
+
+.offset7 {
+  margin-left: 670px; }
+
+.offset8 {
+  margin-left: 770px; }
+
+.offset9 {
+  margin-left: 870px; }
+
+.offset10 {
+  margin-left: 970px; }
+
+.offset11 {
+  margin-left: 1070px; }
+
+.offset12 {
+  margin-left: 1170px; }
+
+body {
+  background-color: #ffffff;
+  font-family: Rockwell, sans-serif;
+  font-size: 12px;
+  font-weight: 600; }
+
+.header {
+  height: 35px;
+  color: #202242; }
+  .header .logo {
+    margin: 56px 0;
+    font-size: 30px; }
+    .header .logo span {
+      font-weight: 800; }
+    .header .logo:before {
+      content: ' ';
+      display: block;
+      width: 26px;
+      height: 32px;
+      background-image: url('../img/logo.png');
+      float: left;
+      margin-right: 20px; }
+  .header .menu {
+    margin: 66px 0; }
+    .header .menu li {
+      float: left;
+      margin-left: 30px;
+      font-size: 16px;
+      text-transform: uppercase; }
+      .header .menu li:hover {
+        color: #ffe13e; }
+  .header .contacts {
+    border-left: 1px solid #ebebeb;
+    padding: 41px 0 56px 35px; }
+    .header .contacts button {
+      height: 41px;
+      width: 121px;
+      background-color: #ffe13e;
+      font-size: 14px;
+      margin: 17px 22px 0 0; }
+    .header .contacts .telephone {
+      display: inline-block;
+      font-size: 24px;
+      padding: 1px 0 5px 15px;
+      margin-top: 17px;
+      border-left: 1px solid #babbc4; }
+
+/*# sourceMappingURL=main.css.map */

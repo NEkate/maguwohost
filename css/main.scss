@@ -1,0 +1,72 @@
+@import "reset.css";
+@import "grid";
+
+body {
+    background-color: #ffffff;
+    font-family: Rockwell, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.header {
+    height: 35px;
+    color: #202242;
+
+    .logo {
+        margin: 56px 0;
+        font-size: 30px;
+
+        span {
+            font-weight: 800;
+        }
+
+        &:before {
+            content: ' ';
+            display: block;
+            width: 26px;
+            height: 32px;
+            background-image: url('../img/logo.png');
+            float: left;
+            margin-right: 20px;
+        }
+    }
+
+    .menu {
+        margin: 66px 0;
+        li {
+            float: left;
+            margin-left: 30px;
+            font-size: 16px;
+            text-transform: uppercase;
+
+            &:hover {
+                color: #ffe13e;
+            }
+        }
+    }
+
+    .contacts {
+        border-left: 1px solid #ebebeb;
+        padding: 41px 0 56px 35px;
+
+
+
+        button {
+            height: 41px;
+            width: 121px;
+            background-color: #ffe13e;
+            font-size: 14px;
+            margin: 17px 22px 0 0;
+        }
+
+        .telephone {
+            display: inline-block;
+            font-size: 24px;
+            padding: 1px 0 5px 15px;
+            margin-top: 17px;
+            border-left: 1px solid #babbc4;
+        }
+    }
+}
+
+
