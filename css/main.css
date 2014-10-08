@@ -99,7 +99,7 @@ body {
   font-weight: 600; }
 
 .header {
-  height: 35px;
+  height: 167px;
   color: #202242; }
   .header .logo {
     margin: 56px 0;
@@ -138,5 +138,68 @@ body {
       padding: 1px 0 5px 15px;
       margin-top: 17px;
       border-left: 1px solid #babbc4; }
+
+.main-header {
+  height: 790px;
+  background: url('../img/balloon.jpg') no-repeat center top;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  padding-top: 235px; }
+  .main-header .domain {
+    width: 960px;
+    margin: 0 auto; }
+    .main-header .domain h2 {
+      color: #ffffff;
+      font-size: 48px;
+      text-shadow: 1px 1px 1px #bebebe;
+      text-align: center; }
+    .main-header .domain h3 {
+      margin: 45px auto 58px auto;
+      color: #ffffff;
+      text-shadow: 1px 1px 1px #bebebe;
+      font-size: 30px;
+      text-align: center; }
+    .main-header .domain .img {
+      margin: 0 auto 60px auto;
+      width: 105px; }
+    .main-header .domain .select-domain {
+      border: 18px solid #dddddd;
+      background: #ffe13e;
+      width: 540px;
+      margin: 0 auto; }
+      .main-header .domain .select-domain > :focus {
+        outline: none; }
+      .main-header .domain .select-domain input {
+        width: 243px;
+        height: 56px;
+        color: #2d2d2d;
+        font-size: 18px;
+        padding-left: 18px;
+        border: none; }
+      .main-header .domain .select-domain select {
+        background: #ffe13e url('../img/select-arrow.gif') no-repeat 97% center;
+        border: 1px solid #ffe13e;
+        border-right: 1px solid #ffffff !important;
+        height: 55px;
+        width: 108px;
+        color: #2d2d2d;
+        font-size: 18px;
+        -webkit-appearance: none;
+        /*Removes default chrome and safari style*/
+        -moz-appearance: none;
+        /* Removes Default Firefox style*/
+        text-indent: 0.01px;
+        /* Removes default arrow from firefox*/
+        text-overflow: "";
+        /*Removes default arrow from firefox*/
+        /*My custom style for fonts*/ }
+      .main-header .domain .select-domain button {
+        background-color: #ffe13e;
+        color: #ffffff;
+        font-size: 16px;
+        height: 54px;
+        width: 155px; }
 
 /*# sourceMappingURL=main.css.map */
