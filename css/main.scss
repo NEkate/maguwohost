@@ -72,7 +72,7 @@ body {
 }
 
 .main-header {
-    height: 790px;
+    height: 555px;
     background: url('../img/balloon.jpg') no-repeat center top;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -146,5 +146,77 @@ body {
             width: 155px;
         }
     }
-
 }
+
+.services {
+    position: relative;
+    width: 100%;
+
+    .web-host {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+
+        background: #202242;
+        height: 650px;
+    }
+
+    .domain {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        width: 50%;
+        background: #ffe13e;
+    }
+
+    .container {
+        margin: 110px auto;
+        width: 440px;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 170px;
+        }
+
+        h3 {
+            margin: 0 auto;
+            width: 360px;
+            color: #ffffff;
+            font-size: 36px;
+            text-align: center;
+            padding-top: 56px;
+        }
+
+        h2 {
+            font-size: 160px;
+            margin: 0 auto;
+            width: 360px;
+            height: 170px;
+            color: #202242;
+            text-align: center;
+        }
+        p {
+            color: #ffffff;
+            text-align: center;
+            margin: 25px 0 36px 0;
+            line-height: 20px;
+        }
+
+        button {
+            background: none;
+            border: 1px solid #ffffff;
+            width: 147px;
+            height: 47px;
+            margin: 0 auto;
+            display: block;
+
+
+            color: #ffffff;
+            font-size: 18px;
+        }
+    }
+}
+
