@@ -96,7 +96,7 @@ body {
   background-color: #ffffff;
   font-family: Rockwell, sans-serif;
   font-size: 12px;
-  font-weight: 600; }
+  font-weight: 100; }
   body button:focus {
     outline: none; }
 
@@ -191,7 +191,7 @@ body {
       /* Removes Default Firefox style*/
       text-indent: 0.01px;
       /* Removes default arrow from firefox*/
-      text-overflow: "";
+      text-overflow: ' ';
       /*Removes default arrow from firefox*/
       /*My custom style for fonts*/ }
     .main-header .select-domain button {
@@ -268,7 +268,6 @@ body {
     text-align: center;
     color: #202242;
     font-size: 24px;
-    font-weight: 100;
     padding-bottom: 88px; }
   .features .tab img {
     display: block;
@@ -288,7 +287,35 @@ body {
     text-align: center;
     font-size: 14px;
     color: #202242;
+    line-height: 20px; }
+
+.testimonial .clients h3 {
+  color: #202242;
+  font-size: 36px;
+  margin-bottom: 30px; }
+.testimonial .clients p {
+  color: #adadad;
+  font-size: 16px;
+  line-height: 20px; }
+.testimonial .clients img {
+  margin-top: 15px; }
+.testimonial .comments .comment {
+  height: 180px;
+  background: #faf9f9; }
+  .testimonial .comments .comment p {
+    color: #a4a4a4;
     line-height: 20px;
-    font-weight: 100; }
+    padding: 30px 20px 25px 20px; }
+  .testimonial .comments .comment .name {
+    color: #696969;
+    font-size: 16px;
+    padding-left: 25px; }
+  .testimonial .comments .comment img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid #e2e1e5;
+    margin: -25px 20px 0 0;
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */

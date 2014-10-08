@@ -5,7 +5,7 @@ body {
     background-color: #ffffff;
     font-family: Rockwell, sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 100;
 
     button:focus {
         outline: none;
@@ -215,7 +215,6 @@ body {
             margin: 0 auto;
             display: block;
 
-
             color: #ffffff;
             font-size: 18px;
         }
@@ -227,7 +226,7 @@ body {
     height: 700px;
 
     h2 {
-        padding:95px 0 30px 0;
+        padding: 95px 0 30px 0;
         color: #202242;
         font-size: 48px;
         text-align: center;
@@ -238,7 +237,6 @@ body {
         text-align: center;
         color: #202242;
         font-size: 24px;
-        font-weight: 100;
         padding-bottom: 88px;
     }
 
@@ -268,7 +266,56 @@ body {
             font-size: 14px;
             color: #202242;
             line-height: 20px;
-            font-weight: 100;
+        }
+    }
+}
+
+.testimonial {
+    .clients {
+        h3 {
+            color: #202242;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: #adadad;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        img {
+            margin-top: 15px;
+        }
+    }
+
+    .comments {
+        .comment {
+            height: 180px;
+            background: #faf9f9;
+
+            p {
+                color: #a4a4a4;
+                line-height: 20px;
+                padding: 30px 20px 25px 20px;
+            }
+
+            .name {
+                color: #696969;
+                font-size: 16px;
+                padding-left: 25px;
+            }
+
+            img {
+                width: 90px;
+                height: 90px;
+
+                border-radius: 50%;
+                border: 5px solid #e2e1e5;
+
+                margin: -25px 20px 0 0;
+                float: right;
+            }
         }
     }
 }
